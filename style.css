@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.nav-bar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ position: fixed;
+ top: 0px;
+ right: 0px;
+left: 0px;
+bottom: auto;
+}
+
+.amazon-logo{
+    height: 38px;
+    margin-left: 5px;
+    margin-top: 5px;
+    
+
+}
+.address1{
+    color: white;
+    font-size: smaller;
+    font-weight: 100;
+}
+.address2{
+    color: white;
+    display: flex;
+    font-weight: bold;
+}
+.fa-location-dot{
+    color: white;
+}
+
+
+.search-input{
+    display: flex;
+    
+   
+}
+
+.All{
+    border: none;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    
+    
+}
+
+.search-box{
+    width: 600px;
+    height: 40px;
+    border: none;
+    
+}
+
+.search-icon{
+   
+}
+
+.fa-magnifying-glass{
+    color: rgb(32, 31, 31);
+    font-size: 22px;
+    background-color: rgb(230, 126, 0);
+    align-content: center;
+    text-align: center;
+    height: 40px;
+    width: 45px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    
+    
+    
+    
+    
+}
+
+
+.cart{
+    display: flex;
+}
+
+.fa-cart-shopping{
+    color: white;
+    font-size: 26px;
+}
+
+.cart-text{
+    color: white;
+}
+
+.below-nav-bar{
+    height: 30px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    
+}
+
+.below-nav-bar-item{
+    transition: border 0.15s;
+    padding: 5px;
+    
+}
+
+.below-nav-bar-item:hover{
+    border: #dee6e7 solid;
+    border-width: 1.3px;
+    border-radius: 2px;
+    
+    cursor:pointer;
+    
+}
+
+/*below nav-bar*/
+
+/*.bg-image{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/June/GW/Hero/V1/V2/BucketsMugsPC-V1._CB553693039_.jpg");
+    height: 3000px;
+    background-size: contain;
+    
+}*/
+
+.bg{
+    background-color: #dee6e7;
+    height: 1000px;
+
+}
+
+.card{
+    height: 420px;
+    width: 306px;
+    background-color: #ffffff;
+    padding: 13px;
+    margin: 15px;
+    
+}
+.card-text{
+    font-size: 1.35rem;
+    font-weight: bold;
+    margin-bottom: 14px;
+    margin-top: 15px;
+}
+.card-img{
+    width: 306px;
+}
+.see-more{
+    color: aqua;
+    margin-top: 20px;
+    opacity: 0.2;
+}
+
+.shop-items{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
